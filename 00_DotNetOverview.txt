@@ -1,0 +1,35 @@
+C# / .NET (VB.NET/C++.NET/F#/IRonPython)
+
+ - Language:  C# Language
+ - Framework: .NET Core (7.0) 
+ - Editor Tool: Visual Studio Comunity 2022
+ --------------
+ -.NET CORE(7 Ver)
+   - Open Source 
+   - Cross Platform (LINUX/MAC/WIN)
+   - Faster
+
+ "DotNet Framework": Old Framework
+ "DotNet Core": New Framework
+  
+  -DotNet Framework History:
+  2010 (.Net Framework 2.0)...  2015(.NET Framework 3.5)...
+  
+  -DotNet Core:
+  2018(.NET CORE 1.0...)..3.5..5.0..6.0...2023(Core 7.0) .... 
+--------------------
+  What is .NET Core?
+      - Libraries Of Code
+        * Arrays 
+        * Strings
+        * All Base Types..
+      - Compiler
+      - Machine Learning Library
+      - Desktop App Libraries 
+      - Web Libraries
+---------------------      
+ - Visual Studio 2022 is not VsCode
+ -------------------
+
+
+

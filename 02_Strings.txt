@@ -1,0 +1,51 @@
+Working With String: 
+---------------------
+  - methods from variables example:
+    string s = "AA";
+    s.ToLower();
+
+  methods from string class example:
+     string.IsNullOrEmpty(..);
+
+--------------------
+  compare 2 strings: 
+  if (s1 == s2)
+  {
+  
+  }
+-------------------
+Format String using $:
+
+   string s = $"value 1 is: {param1},value 2 is {param2}"
+--------------------
+Working with methods:
+Example 1:
+  -   void Func(bool isOk,string s1)
+
+Example 2:
+  -   bool Func(string param1)
+      {
+         ..
+        return true;
+      }
+
+--------------------------------
+Read String from user in console:
+
+Console.Write("Enter UserName:");
+string userInput = Console.ReadLine();
+--------------------------------
+Debug Shortcat:
+
+ F5 - Start Debug
+ F11 - Dive into Method Code
+ F10 - Go Next Line
+ ---------------------------------
+
+
+
+
+
+
+
+

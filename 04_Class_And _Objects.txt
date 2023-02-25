@@ -1,0 +1,106 @@
+calling method using class:
+class A
+{
+   public static void MethodA(...) 
+}
+//Run Static Method
+A.MethodA(....)
+-------------------------------------------------
+calling method using object initialization:
+Class A
+{
+  //Non Static
+  public void MethodA(...)
+} 
+
+//Run Non Static Method 
+//using instance Initialization
+ClassA a1 = new ClassA();
+ClassA a2 = new ClassA(...);
+a1.MethodA(....);
+a2.MethodB();
+-------------------------------
+ Class Vs Object:
+----------------
+ - Class:
+   - is a Template for instances
+   - Methods(non static) - Logic
+   - fields - private data
+   - Properties - public Data
+   - Constractors - initillzing fields/Properties
+ -----  
+ - Objects/Instanse
+   - Type Of Class
+   - use new 
+     Class c1 = new Class();
+     c1.Dosomthing();
+   - each instanse is seperated memory/data
+------------------------------------------------------
+Full Property:
+ - Wrapper for private members
+ - specially for set
+ Example:
+     private int x = 0;
+     public int X
+     {
+         get
+           {
+              return x;
+           }
+            set
+            {
+                if (value >= 0)
+                    x = value;
+                else
+                    x = 0;
+            }
+        }
+----------------------------------------------------
+Private / Public:
+ - private is not accesed outside the class
+ - public can be accessed outside the class
+ - member method can always access any inner private member
+----------------------------------------------------
+Constractor:
+ - Initialize usually private members
+ - Initilize Properties
+ - Call Other Methods
+ - Constractor call only once when innitializing the instance
+
+
+       //01 Define a constractor method in the class
+        public Point3D(int px, int py, int pz)
+        {
+            x = px;
+            Y = py;
+            Z = pz;
+        }
+
+        //02 Create instance using the Constarctor
+        Point3D p4 = new Point3D(2,3,4);
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

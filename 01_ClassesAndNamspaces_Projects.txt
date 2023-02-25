@@ -1,0 +1,148 @@
+
+C# Application Types we can build:
+ - Unity Platform (C#)
+ - WebSites (Server)
+ - Desktop (WPF)
+ - Android
+ - Iphone
+ - Machine Learning (AI)
+ - Console Application
+ - Librieis (C#)
+-----------------------
+Common Use Pattern:
+Microsoft.Security.Firewall.UserModule.UserManagmentProj
+----------------------
+Application Hirarchy:
+Namespace Demos.MyApp 
+  - Class A
+     -  Method A1Func()
+     -  Method A2Func()  
+  - Class B
+     -  Method B1Func()
+     -  Method B2Func() 
+  - Class C
+    ...
+-----------------
+Program Parts :
+ - Namespace 
+ - Class
+ - Method
+-----------------
+Shortcats:
+Cntrl+F5 : Run Application (Non Debug)
+F5 - Run In Debug
+CNTRL +KD : Butify code
+CNTRL +SHIFT +B : BUILD The bin Folder with EXE 
+------------------
+Solution Structure Hirarchy:
+Solution 
+  *ProjectA
+     *A1.cs (File)
+       -Napspace ProjectA
+          -Class A1    
+     *B1.cs (File)
+       -Napspace ProjectA
+           -Class B1 
+  - ProjectB
+  - ProjectC
+--------------------
+Run Method Using FUll Name:
+
+{Namespace}.{Class}.{Method}()
+ 
+ Examples:
+ - System.Console.WriteLine("MethodB Invoked...");
+ - Demos.HackerU.MyClass.MethodA();
+ - MyClass.MethodA();
+--------------------
+ Rules:
+ - if 2 Classes in the same Namespace it Recomended
+   to Ommit the Namespace 
+
+  - If you want to execute class method with diffrent namespace
+    then the caller class method 
+    use the namespace with Using statment
+
+  - its recomded that all classes
+    in the same project will have the same namspace 
+    
+Example:
+ using Demos.HackerU.Testing;
+ 
+  //--Full Name Is Not Required here due to using statment
+  Test.TestA();
+
+-----------------------------
+Run The Application:
+ 1) Ctrl F5 (Visual Studio)
+ 2) bin/debug/.net6/App.exe (Double Click)
+ 3) Open CMD, Navigate to Exe Path, Run Application from CMD: MyApp.exe 
+ ---------------------------
+ Summary:
+-.sln (Visual Studio)
+  --.proj (Visual Studio)
+     ---Namspace (C# Code)
+         ----Class (C# Code)
+            -----Function (C# Code)
+------------------------------
+Build: Cntl+ Shit +B : Generate bin folder
+Run: F5 : Build+Run The Application
+
+Check Error
+------------------------------
+How to Build 1 Main Console Application
+And Many Other Project Calld By the Console
+
+ProjMain ---> Build ----> bin(ProjMain.Exe) 
+Lib1 ---> Build ----> bin (Lib1.dll)
+Lib2 ---> Build ----> bin (Lib2.dll)
+
+-------------------------------------------------
+What Steps Require to use class library project:
+1) Right Click Console Project
+2) Add Class Library Project
+3) Write your code (Add Classes / Methods )
+4) Build Class Library to check it
+5) go to main and Add reference projects from dependencies
+6) using of the class library namspace
+----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

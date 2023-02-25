@@ -1,0 +1,49 @@
+Inheritance:
+
+Class Vehicle
+ - ID
+ - Color
+ - Lit<Wheel>
+ - Drive()
+ - Stop()
+
+ Class Bike : Vehicle
+  - IsElectric
+  - PedalsTypes
+
+  Class Car : Bike
+   - IsSaftySystem
+   - EngineSize
+
+
+----------------
+Point
+  - X
+  - Y
+  - Display()
+
+3DPoint : Point
+ - Z
+ - Display()
+-----------------
+3DPoint p1 = new 3DPoint();
+p1.X = 10;
+p1.Y = 20;
+p1.Z = 30;
+p1.Display()
+------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

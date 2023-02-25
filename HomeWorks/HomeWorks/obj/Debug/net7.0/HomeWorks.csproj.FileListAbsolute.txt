@@ -1,0 +1,15 @@
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\bin\Debug\net7.0\HomeWorks.exe
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\bin\Debug\net7.0\HomeWorks.deps.json
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\bin\Debug\net7.0\HomeWorks.runtimeconfig.json
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\bin\Debug\net7.0\HomeWorks.dll
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\bin\Debug\net7.0\HomeWorks.pdb
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.csproj.AssemblyReference.cache
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.GeneratedMSBuildEditorConfig.editorconfig
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.AssemblyInfoInputs.cache
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.AssemblyInfo.cs
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.csproj.CoreCompileInputs.cache
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.dll
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\refint\HomeWorks.dll
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.pdb
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.genruntimeconfig.cache
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\ref\HomeWorks.dll

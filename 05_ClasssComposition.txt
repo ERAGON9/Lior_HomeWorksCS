@@ -1,0 +1,34 @@
+
+One To Many:
+-----------
+Product (Many)
+ - Title
+ - Id
+ - Price
+ - Category Category
+ - CategoryID
+
+Category (one)
+  - List<Product> : products
+--------------------------------
+ Product p = products[0];
+ Category c =  p.Cateogry
+ -------------------------------
+Shape
+  - List<Point> : points
+--------------------------------
+Car 
+ - Wheel :  w1
+ - Whell :  w2
+ - Wheel :  w3
+ - Whell :  w4
+ - Engine : eng; GETTER /SETTER
+ - string : idNum
+---------------------------------
+ What iS mater Details?
+ Using GUI to display List Of Item when clicking 1 items 
+ it display all details 
+ ListBox --- > TextBox
+----------------------------------
+
+
