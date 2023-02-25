@@ -1,10 +1,12 @@
-﻿namespace HomeWorks
+﻿using Home_Works_Library;
+
+namespace HomeWorks
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Demos.HackerU.HomeWork.HomeWork_01.main();
+            Home_Work_01.main();
 
 
 

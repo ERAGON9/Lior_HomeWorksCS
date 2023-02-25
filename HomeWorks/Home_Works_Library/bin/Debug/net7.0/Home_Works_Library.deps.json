@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "HomeWorks/1.0.0": {
-        "dependencies": {
-          "Home_Works_Library": "1.0.0"
-        },
-        "runtime": {
-          "HomeWorks.dll": {}
-        }
-      },
       "Home_Works_Library/1.0.0": {
         "runtime": {
           "Home_Works_Library.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "HomeWorks/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Home_Works_Library/1.0.0": {
       "type": "project",
       "serviceable": false,

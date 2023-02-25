@@ -13,3 +13,6 @@ C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\
 C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.pdb
 C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.genruntimeconfig.cache
 C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\ref\HomeWorks.dll
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\bin\Debug\net7.0\Home_Works_Library.dll
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\bin\Debug\net7.0\Home_Works_Library.pdb
+C:\מדעי המחשב\HackerU\C#_Module\Lior_HomeWorks\HomeWorks\HomeWorks\obj\Debug\net7.0\HomeWorks.csproj.CopyComplete

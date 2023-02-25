@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Demos.HackerU.HomeWork
+﻿namespace Home_Works_Library
 {
-    internal class HomeWork_01
+    public class Home_Work_01
     {
-
         public static void main()
         {
             // exercise 1
@@ -25,7 +18,9 @@ namespace Demos.HackerU.HomeWork
                 Console.WriteLine("The two string are not equals (ignoring camelcase)");
 
             //////////////////////////////////////////////////////////////////////////////////////////////////
-
+            Console.WriteLine();
+            /////////////////////////////////////////////////////////////////////////////////////////////////
+            
             // exercise 2
 
             Console.WriteLine("Please enter username and emailtype: ");
@@ -68,6 +63,5 @@ namespace Demos.HackerU.HomeWork
 
             return msg;
         }
-
     }
 }

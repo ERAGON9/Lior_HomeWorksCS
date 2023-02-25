@@ -28,6 +28,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork", "HomeWork", "{BA
 		..\HW_08.txt = ..\HW_08.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_Works_Library", "Home_Works_Library\Home_Works_Library.csproj", "{1484510E-B37D-4E79-8293-4205D75E71F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{70CACC05-FE49-4A0B-AD8A-1F6DD57F23F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70CACC05-FE49-4A0B-AD8A-1F6DD57F23F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70CACC05-FE49-4A0B-AD8A-1F6DD57F23F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1484510E-B37D-4E79-8293-4205D75E71F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1484510E-B37D-4E79-8293-4205D75E71F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1484510E-B37D-4E79-8293-4205D75E71F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1484510E-B37D-4E79-8293-4205D75E71F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
