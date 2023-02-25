@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            HomeWorks.HomeWork_01.action();
+            Demos.HackerU.HomeWork.HomeWork_01.main();
+
+
+
         }
     }
 }

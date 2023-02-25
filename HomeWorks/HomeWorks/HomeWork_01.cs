@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeWorks
+namespace Demos.HackerU.HomeWork
 {
     internal class HomeWork_01
     {
 
-        public static void action()
+        public static void main()
         {
+            // exercise 1
+
             Console.WriteLine("Please enter two strings: ");
             string string1 = Console.ReadLine();
             string string2 = Console.ReadLine();
@@ -22,6 +24,20 @@ namespace HomeWorks
             else
                 Console.WriteLine("The two string are not equals (ignoring camelcase)");
 
+            //////////////////////////////////////////////////////////////////////////////////////////////////
+
+            // exercise 2
+
+            Console.WriteLine("Please enter username and emailtype: ");
+            string username = Console.ReadLine();
+            string emailtype = Console.ReadLine();
+
+            string msg = ToEmail(username, emailtype);
+
+            if (msg.Contains('@') == true)
+                Console.WriteLine($"Valid: {msg}");
+            else
+                Console.WriteLine($"Not valid: {msg}");
 
         }
 

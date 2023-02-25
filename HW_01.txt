@@ -9,7 +9,7 @@ with namspace: Demos.HackerU.HomeWork
    for example:
    for parameters:
    "AabB"
-   "aAbb
+   "aAbb"
    the method will return true
    ---------
    for parameters:
