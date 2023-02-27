@@ -2,7 +2,7 @@
 {
     public class Home_Work_01
     {
-        public static void main()
+        public static void Run()
         {
             // exercise 1
 

@@ -6,9 +6,7 @@ namespace HomeWorks
     {
         static void Main(string[] args)
         {
-            Home_Work_01.main();
-
-
+            Home_Work_01.Run();
 
         }
     }
