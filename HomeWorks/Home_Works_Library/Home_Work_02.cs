@@ -15,29 +15,36 @@ namespace Home_Works_Library
             // Remove from comment every exercise you want to check!
 
             /////////////////////////////////////////////
-            //// Ex1
-            // Static array
+
+            #region Ex1 Static array
 
             //string[] staticArr = new string[5] { "Hi", "Bye", "Good bye friend", "Hello", "Whats up" };
             //string longSstr = LongestString(staticArr);
             //Console.WriteLine(longSstr + "\n");
 
+            #endregion
+
             /////////////////////////////////////////////
-            // Dynamic array
+            #region Ex1 Dynamic array
 
             //List<string> DynamicArr = new List<string> { "Hi", "Bye", "Good bye friend", "Hello", "Whats up" };
             //string longDstr = LongestString(DynamicArr);
             //Console.WriteLine(longDstr + "\n");
 
+            #endregion
+
             ////////////////////////////////////////////
-            //// Ex2
+
+            #region Ex2
 
             //List<int> numbers = new List<int> { 1, 2, 3, 4, };
             //string Strnumbers = JoinAll(numbers);
             //Console.WriteLine(Strnumbers + "\n");
+            #endregion
 
             ////////////////////////////////////////////
-            //// Ex3
+
+            #region Ex3
 
             //Console.Write("Enter fisrt number: ");
             //int num1 = int.Parse(Console.ReadLine());
@@ -51,8 +58,11 @@ namespace Home_Works_Library
             //int calcExprassion = Calculate(num1, num2, operatorSighn);
             //Console.WriteLine("the expression after calculate is: " + calcExprassion + "\n");
 
+            #endregion
+
             ////////////////////////////////////////////
-            //// Ex4
+
+            #region Ex4
 
             //int[] staticNumbers = new int[7] { 10, 2, 38, 22, 38, 23, 21 };
             //List<int> dynamicNumbers = DitanceFromAvg(staticNumbers, 2);
@@ -62,25 +72,37 @@ namespace Home_Works_Library
             //    Console.Write($" {dynamicNumbers[i]}");
             //Console.WriteLine();
 
+            #endregion
+
             ////////////////////////////////////////////
-            //// Ex5
+
+            #region Ex5
 
             //PrintFromLastStrings();
 
+            #endregion
+
             ////////////////////////////////////////////
-            //// Ex6
+
+            #region Ex6
 
             //List<int> numArr = new List<int>() { 18, 23, 99, 54, 107, 94, -20 };
 
             //SortDynamicNumbersArr(numArr);
 
+            #endregion
+
             ////////////////////////////////////////////
-            //// Ex7
+
+            #region Ex7
 
             //ReadIntegers();
 
+            #endregion
+
             ////////////////////////////////////////////
-            //// Ex8
+
+            #region Ex8
 
             //List<string> stringsBefore = new List<string>() { "hi", "hello", "hi", "bye", "hi" };
             //string valuetoremove = "hi";
@@ -97,8 +119,11 @@ namespace Home_Works_Library
             //    Console.Write($" {stringAfter[i]} ");
             //Console.WriteLine("\n");
 
+            #endregion
+
             ////////////////////////////////////////////
-            //// Ex9
+
+            #region Ex9
 
             //List<int> numbers = new List<int>() { 1, 22, 44, 88, 105, 12};
 
@@ -113,6 +138,8 @@ namespace Home_Works_Library
             //for (int i = 0; i < numbersAfterRemove.Count; i++)
             //    Console.Write($" {numbersAfterRemove[i]} ");
             //Console.WriteLine("\n");
+
+            #endregion
 
         }
 
