@@ -31,8 +31,8 @@ Q1) Create a new  method name it DrawRectangleBorder
     Area = 30
 
     validation:
-        if height or width are less the 2 print a msg 
-        and read again new parameters from user
+        if height or width are less than 2, print a msg 
+        and read again new parameters from user.
 
  ----------------------------------------------------------------
  Q2) Create new method name it CreateList()
