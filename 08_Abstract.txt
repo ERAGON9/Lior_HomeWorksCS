@@ -1,0 +1,58 @@
+﻿
+abstract class BaseClass
+{
+    public abstract MethodA();
+
+    public void  MyMethod()
+    {
+       ...  
+    }
+
+}
+
+class DerivedClass : BaseClass
+{
+    public override MethodA()
+    {
+       // base.MyMethod();
+    }
+}
+
+---------------------------------------------------------------
+
+Abstract Class: 
+ 1) Cant create instance of this Class (cant use new from NOWhere)
+ 2) All Methods + Constractor are available only from child class (Not From Direct Object)
+ 3) We can create instance only of derived class which is not abstract
+ 4) Class is not for use its too primitive/Skelton
+------------------------------------------------ 
+ Abstract Method:
+ 1) No Implementation no {} only ; at the end of method
+ 2) All Child class must implement using override the mehods 
+ 3) Polimorphism is active in Abstract-Override relashiship
+ 4) Once we have at least obe abstract method  its class must also be abstract
+ -----------------------------------------------------------------------------
+ virtual-override vs abstract-override: 
+ if method is virtual 
+   - Has Implementation
+   - May doing ovveride
+ if method is Abstract 
+   - Has no Implementation
+   - Must doing ovveride
+ ----------------------------------------------------------------------------
+ Account Class Demo
+   - AcountNum: int
+   - FullName
+   - CurrentBlance
+   - abstract  Deposit(int amount) //הפקדה
+   - abstract  Withdraw(int amount)//משיכה
+
+BussinessAccount : Account
+   - CompanyName
+PrivateAccount : Account
+   - IDNumber
+Create List of Account and Do Deposit and Withdraw operation
+-------------------------
+
+
+

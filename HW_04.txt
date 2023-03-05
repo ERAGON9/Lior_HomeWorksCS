@@ -6,8 +6,8 @@
    Create a method name it DiscountCalc that calculate 
    discount by a customer type 
    the method will get 2 parameters:
-   1) customerTyp enum  
-   2) productPrice of double type
+   1) CustomerType enum  
+   2) ProductPrice of type double
    the method will return the discount price  
    Example:
    double CustomerType(CustomerType customerType, double productPrice)
@@ -70,7 +70,7 @@ Content Example:
  TypeList[0]
  are all describe a single student
  2) after List Created 
-   use switchcase menue that support the following operations :
+   use switchcase menu that support the following operations :
   1) Add New Student to lists:
     - read student id 
     - read student name

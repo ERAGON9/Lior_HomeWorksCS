@@ -1,0 +1,90 @@
+﻿ Polimorphism
+ - Run Derived Class(Child) methods From Base Class(Parent)
+ 
+ Example:
+ class Point
+ {
+    virtual Display()
+    {
+      ....
+    }
+ }
+ class Point3D : Point
+ {
+    ...
+    override Display()
+    {
+      base.Display();
+      
+    }
+ }
+
+ Point p1 = new Point3D();
+ p1.Display();
+
+ ------------------------------------------
+ Practice Example:
+ Employee 
+   - BaseSalary
+   - virtual CalculateSalary();
+ 
+ Developer : Employee
+    - FeaturesImplementdCount : int
+    - Override CalculateSalary();
+ QA : Employee
+    - BugsFixCount : int
+    - Override CalculateSalary();
+ Manager : Employe
+    - LidsCount : int
+    - Override CalculateSalary();
+ ExternalEmployee : Employe
+    - FixSalary
+    
+
+---------------------------------------------
+Virtual Override
+1) Run Derived Class(Child) From Base Class(Parent)
+2) Use same Method in Bse class and derived class
+3) Base class use virtual (only once)
+4) All Descendents/Child override
+----------------------------------------------
+Abstract Class: 
+ 1) Cant Vreate instance of this Class (cant use new from NOWhere)
+ 2) All Methods + Constractor are available only from child class
+ 3) we can create instance only of derived class which is not abstract
+ 4) Class is not for use its too primitive/Skelton
+------------------------------------------------ 
+ Abstract Method:
+ 1) No Implementation no {} only ; at the end of method
+ 2) All Child class must implement using override the mehods 
+ 3) Polimorphism is active in Abstract-Override relashiship
+ 4) Once we have at least obe abstract method  its class must also be abstract
+ -----------------------------------------------------------------------------
+ virtual-override vs abstract-override: 
+ if method is virtual 
+   - Has Implementation
+   - May doing ovveride
+ if method is Abstract 
+   - Has no Implementation
+   - Must doing ovveride
+ ----------------------------------------------------------------------------
+ Class Demo:
+ 
+ Account 
+   - AcountNum: int
+   - FullName
+   - CurrentBlance
+   - abstract  Deposit(int amount) //הפקדה
+   - abstract  Withdraw(int amount)//משיכה
+
+BussinessAccount : Account
+   - CompanyName
+PrivateAccount : Account
+   - IDNumber
+Create List of Account and Do Deposit and Withdraw operation
+-------------------------
+
+
+
+
+

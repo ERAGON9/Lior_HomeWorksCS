@@ -1,0 +1,6 @@
+HW INTERFACES:  
+
+1) take the code in this link understand it and run it in your visual studio:
+http://gyanendushekhar.com/2016/08/07/bridge-design-pattern-c/    
+
+2) Read  article and try to understand what is a Bridge-Pattern
