@@ -1,0 +1,28 @@
+Exceptions:
+ * RunTime Errors
+ *unexpected errors
+ Exception Examples
+ - Read File Currapted
+ - Read File that is in used
+ - Read File that is Not Exsist
+ - (10/x x=0) Exception
+ - Network Connection (ip Not Exsist)
+ ----------------------------------
+ Behivor:
+ When Exception is triggered?
+  - Application is crashed
+  - DEBUG: stop where exception raised(DISPLAY ERROR)
+How to Handle?
+try 
+catch
+finnaly
+ We Want to handle exceptions,friendly way
+   - LOGGER
+   - Notify USER
+   - MessageBox
+
+Exception is Bubling Up in callstack
+
+------------------------------------
+Custom Exception 
+ - New Exception Type that Inherit From Exception

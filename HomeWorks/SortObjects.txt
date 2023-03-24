@@ -1,0 +1,8 @@
+List<Product> list = new ...
+list.sort();
+------------------------------------
+Sort By Name/Price/Id
+
+
+
+ 

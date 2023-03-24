@@ -1,0 +1,24 @@
+ OOP Topics Summary:
+ -  Clases And Objects
+ -  Constractors / Properties
+ -  this ,base keywords 
+ -  Overloading 
+    (same method name and diffrent incomming parametrs in the same class)
+ -  Static Vs Non Static Members
+ -  Inheritance
+  - Abstract Classes
+  - Virtual Override / Abstract Override
+  - Polimorphism
+ -  Interfaces
+ -  Public/Private /Protected /Intenal
+ -  Const / Readoly
+ -  Design Pattern (Recomeded)
+ ----------------------------------------------------
+
+
+ 
+
+
+
+
+

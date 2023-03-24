@@ -3,45 +3,73 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWorks", "HomeWorks\HomeWorks.csproj", "{70CACC05-FE49-4A0B-AD8A-1F6DD57F23F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWorks", "HomeWorks\HomeWorks.csproj", "{70CACC05-FE49-4A0B-AD8A-1F6DD57F23F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassWork", "ClassWork", "{23496CB9-392A-4BF3-9EBE-CAA8D381076E}"
 	ProjectSection(SolutionItems) = preProject
 		..\00_DotNetOverview.txt = ..\00_DotNetOverview.txt
+		00_DotNetOverview.txt = 00_DotNetOverview.txt
 		..\01_ClassesAndNamspaces_Projects.txt = ..\01_ClassesAndNamspaces_Projects.txt
+		01_ClassesAndNamspaces_Projects.txt = 01_ClassesAndNamspaces_Projects.txt
 		..\02_Strings.txt = ..\02_Strings.txt
+		02_Strings.txt = 02_Strings.txt
 		..\03_DataTypes.txt = ..\03_DataTypes.txt
+		03_DataTypes.txt = 03_DataTypes.txt
 		..\04_Class_And _Objects.txt = ..\04_Class_And _Objects.txt
+		04_Class_And _Objects.txt = 04_Class_And _Objects.txt
 		..\05_ClasssComposition.txt = ..\05_ClasssComposition.txt
+		05_ClasssComposition.txt = 05_ClasssComposition.txt
 		..\06_Inheritance.txt = ..\06_Inheritance.txt
+		06_Inheritance.txt = 06_Inheritance.txt
 		..\07_Polimorphism.txt = ..\07_Polimorphism.txt
+		07_Polimorphism.txt = 07_Polimorphism.txt
 		..\08_Abstract.txt = ..\08_Abstract.txt
+		08_Abstract.txt = 08_Abstract.txt
 		..\09_Interfaces.txt = ..\09_Interfaces.txt
+		09_Interfaces.txt = 09_Interfaces.txt
 		..\10_Static.txt = ..\10_Static.txt
+		10_Static.txt = 10_Static.txt
 		..\11_Accesability.txt = ..\11_Accesability.txt
+		11_Accesability.txt = 11_Accesability.txt
+		12_OOP.txt = 12_OOP.txt
+		13_Exceptions.txt = 13_Exceptions.txt
+		SortObjects.txt = SortObjects.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork", "HomeWork", "{BA5C7507-96A1-488A-90EB-C911A6999874}"
 	ProjectSection(SolutionItems) = preProject
 		..\HW_01.txt = ..\HW_01.txt
+		HW_01.txt = HW_01.txt
 		..\HW_02.txt = ..\HW_02.txt
+		HW_02.txt = HW_02.txt
 		..\HW_03.txt = ..\HW_03.txt
+		HW_03.txt = HW_03.txt
 		..\HW_04.txt = ..\HW_04.txt
+		HW_04.txt = HW_04.txt
 		..\HW_05.txt = ..\HW_05.txt
+		HW_05.txt = HW_05.txt
 		..\HW_06.txt = ..\HW_06.txt
+		HW_06.txt = HW_06.txt
 		..\HW_07.txt = ..\HW_07.txt
+		HW_07.txt = HW_07.txt
 		..\HW_08.txt = ..\HW_08.txt
+		HW_08.txt = HW_08.txt
 		..\HW_09.txt = ..\HW_09.txt
+		HW_09.txt = HW_09.txt
 		..\HW_10.txt = ..\HW_10.txt
+		HW_10.txt = HW_10.txt
+		..\HW_11.txt = ..\HW_11.txt
+		..\HW_12.txt = ..\HW_12.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_Works_Library", "Home_Works_Library\Home_Works_Library.csproj", "{1484510E-B37D-4E79-8293-4205D75E71F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Home_Works_Library", "Home_Works_Library\Home_Works_Library.csproj", "{1484510E-B37D-4E79-8293-4205D75E71F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_Work_04_WPF_App", "Home_Work_04_WPF_App\Home_Work_04_WPF_App.csproj", "{52736A5E-283E-4A16-BD30-41ADACB8964B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Home_Work_04_WPF_App", "Home_Work_04_WPF_App\Home_Work_04_WPF_App.csproj", "{52736A5E-283E-4A16-BD30-41ADACB8964B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterviewQuestions", "InterviewQuestions", "{9C84FA98-0C6B-4FDB-A03E-CBC18D9B3096}"
 	ProjectSection(SolutionItems) = preProject
 		..\OOP.txt = ..\OOP.txt
+		OOP.txt = OOP.txt
 	EndProjectSection
 EndProject
 Global

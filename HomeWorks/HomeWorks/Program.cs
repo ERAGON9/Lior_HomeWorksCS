@@ -17,7 +17,7 @@ namespace HomeWorks
 
             //Home_Work_09.Run();
 
-            Home_Work_10.Run();
+            //Home_Work_10.Run();
 
         }
     }
