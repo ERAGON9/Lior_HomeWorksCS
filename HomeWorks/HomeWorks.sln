@@ -17,7 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassWork", "ClassWork", "{
 		..\07_Polimorphism.txt = ..\07_Polimorphism.txt
 		..\08_Abstract.txt = ..\08_Abstract.txt
 		..\09_Interfaces.txt = ..\09_Interfaces.txt
-		..\OOP.txt = ..\OOP.txt
+		..\10_Static.txt = ..\10_Static.txt
+		..\11_Accesability.txt = ..\11_Accesability.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork", "HomeWork", "{BA5C7507-96A1-488A-90EB-C911A6999874}"
@@ -31,11 +32,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork", "HomeWork", "{BA
 		..\HW_07.txt = ..\HW_07.txt
 		..\HW_08.txt = ..\HW_08.txt
 		..\HW_09.txt = ..\HW_09.txt
+		..\HW_10.txt = ..\HW_10.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_Works_Library", "Home_Works_Library\Home_Works_Library.csproj", "{1484510E-B37D-4E79-8293-4205D75E71F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_Work_04_WPF_App", "Home_Work_04_WPF_App\Home_Work_04_WPF_App.csproj", "{52736A5E-283E-4A16-BD30-41ADACB8964B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterviewQuestions", "InterviewQuestions", "{9C84FA98-0C6B-4FDB-A03E-CBC18D9B3096}"
+	ProjectSection(SolutionItems) = preProject
+		..\OOP.txt = ..\OOP.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

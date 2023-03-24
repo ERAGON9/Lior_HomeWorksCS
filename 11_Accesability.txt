@@ -1,0 +1,25 @@
+What are Access Specifiers?
+
+Public: can be accessible outside the class (any class) through object reference.
+Private: can be accessible inside the class only not outside 
+Protected: Access to all members in derived classes
+Internal: can be visible inside the assembly(DLL/EXE) inside project only. Accessible through objects.
+Protected Internal: can be visible inside the assembly through objects and in derived classes outside the assembly
+
+protected internal
+ProjA
+ protected internal A1
+
+ProjB
+  //Allowed
+  B1 : A1
+
+ProjC
+//Not Allowed 
+ A1 a = new A1();
+
+------------------------------------------
+
+
+
+

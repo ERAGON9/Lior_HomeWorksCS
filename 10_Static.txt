@@ -1,0 +1,145 @@
+
+1) Static Vs Non Static
+  - Static Data(Fields/Properties)
+  - static constractor
+  - Static Methods
+2) readonly / const
+3) Singelton
+
+
+- Singelton Pattern
+- Other Pattern
+----------------------------------
+ 1)
+ Static: 
+  - Call Method/Property using the Class
+  static Example:
+   MyClass.FuncA(); //FuncA() is static method
+   MyClass.PropA = 5; //PropA is static Property
+   MyClass.fieldA = 10;
+
+ Non Static: 
+  MyClass m = new MyClass();
+  m.FuncA()//FunA() method is non static
+
+Example: 
+  Class Demo
+  {
+      public static int num1;
+      public int num2;
+      public funcA()//Non Static
+      {
+        Console.Writeline(num1) //static field access
+      }
+    
+  }
+  //1) Access:
+  //acces using Class name
+  Demo.num1 = 10;//static
+  
+  //access using object after constractor call
+  c1 = new Demo();
+  c1.num2 = 10;//non static
+ 
+ //2) Sharing:
+  Demo.num1 = 100;
+  c1.FuncA(); //100
+  c1.num2 = 1;
+
+  Demo.num1++;
+ 
+  Demo c2 = new Demo();
+  c2.FuncA();//101
+  c2.num2 = 5;
+
+-------------------------------------------
+Static field/Property
+ - the field/Property is common to all objects(new)
+
+ ---------------------------------------------------------------------
+
+ 2) readonly:
+   - fields that are constant 
+   - cant be changed/Write after intitilized
+   
+   const:
+   - not allowed to changed . only when declared
+   - static
+
+
+   Class A
+   {
+      public readonly int fieldA = 0;
+      public const int fieldB = 0;//Not allowd to be changed from anywhere      
+      public static readonly int fieldB = 0;
+      
+      //Static Constractor
+      static A()
+      {
+          fieldB = 10;//Allowed
+          //Initialized Static 
+          //Initilizing static readonly
+          //call other static methods();
+      }
+
+      public A()
+      {
+          fieldA = 10;//Allowed
+      }
+
+            
+      public A(int x)
+      {
+          fieldA = x+10;
+          //
+      }
+
+      public void MethodA()
+      {
+        fieldA = 10;//Not Allowed
+      }
+
+   }
+-----------------------------------------
+   //const
+   int x = A.fieldB;
+   
+   //readonly
+   A a = new A();
+   int y =a.fieldA;
+-----------------------------------------
+ -  Static Methods(regular) can never call Non-Static
+ 
+ public static void DoSomthing()
+ {
+      this. //Not Allowed
+
+    //--This is not allowed
+      this.MethodA();
+   
+    //--This is not allowed
+     MethodA();
+
+    //--This is not allowed
+     PropertyA = "XXXX";
+
+     //--Allowed
+     MethodB();
+   
+ }
+
+  string PropertyA {get; set;}
+
+  public  MethodA()
+  {
+     
+  }
+
+  public static  MethodB()
+  {
+     
+  }
+
+---------------------------------------------------------
+
+
